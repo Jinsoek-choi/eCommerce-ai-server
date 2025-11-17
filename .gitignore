@@ -1,0 +1,6 @@
+# venv, 캐시 무시
+venv/
+__pycache__/
+*.pyc
+uploads/
+models/

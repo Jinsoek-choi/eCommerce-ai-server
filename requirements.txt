@@ -1,0 +1,7 @@
+# 필요한 라이브러리 목록
+fastapi
+uvicorn
+pillow
+tensorflow      # 또는 필요하면 torch로 변경 가능
+python-multipart
+numpy
