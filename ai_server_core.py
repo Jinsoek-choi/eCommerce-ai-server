@@ -55,5 +55,6 @@ def generate_product_description(product: dict) -> list:
         ],
     )
 
+    # GPT는 content 전체를 하나의 string(JSON 문자열)로 반환함
     json_text = response.choices[0].message.content
     return json.loads(json_text)
